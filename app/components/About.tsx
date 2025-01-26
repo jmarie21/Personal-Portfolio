@@ -31,15 +31,15 @@ export default function About() {
       <div className="container mx-auto flex flex-col md:flex-row items-center gap-12 px-6 lg:px-32">
         {/* Left Column (Text) */}
         <div className="md:w-1/2 text-center md:text-left">
-          <h1 className="text-2xl font-bold mb-4">Hello there, I'm</h1>
+          <h1 className="text-2xl font-bold mb-4">Hello there, I&apos;m</h1>
           <h2 className="text-3xl sm:text-4xl text-primary font-bold mb-4">
             John Marie Ygot
           </h2>
           <p className="text-gray-600 mb-4">
-            I’m a junior web developer with a passion for learning and building
-            web applications. I enjoy turning ideas into interactive,
+            I&apos;m a junior web developer with a passion for learning and
+            building web applications. I enjoy turning ideas into interactive,
             user-friendly websites and am always eager to improve my skills.
-            Let’s create something great together!
+            Let&apos;s create something great together!
           </p>
 
           {/* Social Icons */}
@@ -53,7 +53,12 @@ export default function About() {
                 rel="noopener noreferrer"
                 className="flex items-center justify-center w-12 h-12 rounded-full"
               >
-                <img src={social.icon} alt="Social Links" width={30} />
+                <Image
+                  src={social.icon}
+                  alt="Social Links"
+                  width={30}
+                  height={30}
+                />
               </a>
             ))}
           </div>

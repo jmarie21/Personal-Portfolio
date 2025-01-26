@@ -8,13 +8,13 @@ export default function Contact() {
         {/* Heading */}
         <h3 className="text-primary text-xl font-semibold">Get in touch</h3>
         <h2 className="text-4xl font-bold mb-4 mx-auto">
-          Let’s create something amazing together
+          Let&apos;s create something amazing together
         </h2>
 
         {/* Subheading */}
         <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
-          Ready to bring your next project to life? Let's connect and discuss
-          how I can help you achieve your goals.
+          Ready to bring your next project to life? Let&apos;s connect and
+          discuss how I can help you achieve your goals.
         </p>
 
         {/* Button */}

@@ -11,8 +11,8 @@ export default function Footer() {
             <a href="#hero">JMY</a>
           </div>
           <p>
-            Creating impactful digital experiences and solutions. Let's build
-            something together!
+            Creating impactful digital experiences and solutions. Let&apos;s
+            build something together!
           </p>
         </div>
 

@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { projects } from "../data/projects";
+import Image from "next/image";
 
 export default function Projects() {
   return (
@@ -21,10 +22,12 @@ export default function Projects() {
             className="flex flex-col md:flex-row items-center gap-8 w-full bg-white p-8 rounded-lg shadow-lg"
           >
             <div className="w-full md:w-1/2 flex justify-center">
-              <img
+              <Image
                 src={project.image}
                 alt={project.name}
                 className="w-full h-auto rounded-lg object-cover"
+                width={500}
+                height={500}
               />
             </div>
 

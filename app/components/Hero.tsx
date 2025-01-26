@@ -13,7 +13,9 @@ export default function Hero() {
           alt="John's Profile Picture"
           className="w-40 h-40 rounded-full object-cover"
         />
-        <h1 className="text-2xl font-semibold sm:text-3xl">Hi, I'm John.</h1>
+        <h1 className="text-2xl font-semibold sm:text-3xl">
+          Hi, I&apos;m John.
+        </h1>
       </div>
 
       <h1 className="text-3xl sm:text-4xl text-secondary font-bold mt-4">
@@ -21,8 +23,8 @@ export default function Hero() {
       </h1>
 
       <p className="text-gray-500 mt-4 max-w-md sm:max-w-xl mx-4">
-        I love turning ideas into real products. If you’ve got something in
-        mind, let's collaborate and bring ideas to life together.
+        I love turning ideas into real products. If you&apos;ve got something in
+        mind, let&apos;s collaborate and bring ideas to life together.
       </p>
 
       <Button className="mt-8">
@@ -30,7 +32,7 @@ export default function Hero() {
           target="_blank"
           href="https://www.linkedin.com/in/john-marie-ygot-19352a263/"
         >
-          Let's connect
+          Let&apos;s connect
         </Link>
       </Button>
     </section>

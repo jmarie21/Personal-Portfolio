@@ -1,4 +1,5 @@
 import { skills } from "@/app/data/skills";
+import Image from "next/image";
 
 export default function Skills() {
   return (
@@ -20,10 +21,12 @@ export default function Skills() {
               key={skill.name}
               className="flex flex-col items-center bg-white p-8 rounded-xl shadow-lg text-center transition-transform duration-300 transform hover:scale-110"
             >
-              <img
+              <Image
                 src={skill.image}
                 alt={skill.name}
                 className="w-20 h-20 object-contain mb-4"
+                width={80}
+                height={80}
               />
               <h3 className="text-xl font-semibold">{skill.name}</h3>
             </div>
