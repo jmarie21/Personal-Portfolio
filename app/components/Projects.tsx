@@ -11,8 +11,9 @@ export default function Projects() {
           Featured Projects
         </h2>
         <p className="text-lg text-gray-600 max-w-2xl mx-auto text-center">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nibh
-          neque, suscipit eget augue at, commodo eleifend neque.
+          Here are some of the projects I&apos;ve worked on. Each one shows my
+          passion for building things that are useful, easy to use, and make a
+          real difference.
         </p>
 
         {/* Project Card */}
