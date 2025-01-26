@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section className="flex flex-col justify-center items-center text-center h-screen bg-gray-50 px-6">
+    <section className="flex flex-col justify-center items-center text-center h-screen px-6">
       <div className="flex flex-col items-center gap-4">
         {/* Round and Small Image */}
         <Image

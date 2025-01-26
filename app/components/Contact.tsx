@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Contact() {
   return (
-    <section className="bg-gray-50 py-16 flex flex-col justify-center items-center text-center min-h-screen">
+    <section className="py-16 flex flex-col justify-center items-center text-center min-h-screen">
       <div className="space-y-6 container mx-auto text-center px-6 lg:px-32">
         {/* Heading */}
         <h3 className="text-primary text-xl font-semibold">Get in touch</h3>
