@@ -19,7 +19,7 @@ export const projects: Projects[] = [
     name: "Align",
     description:
       "Align is a streamlined and intuitive task management application designed to help users stay organized and productive. Built using Vue.js, Inertia.js, Laravel, Tailwind CSS, and ShadCN UI, Align provides a seamless and responsive experience, ensuring efficient task tracking and management.",
-    image: "/images/portfolio.png",
+    image: "/images/align.png",
     url: "https://github.com/jmarie21/align-vue",
     tools: ["VueJs", "Typescript", "Shadcn UI", "Laravel", "TailwindCSS"],
   },
